@@ -23,3 +23,38 @@
 | DNS zones      | becode.corp.lab, _msdcs.becode.corp.lab |
 | SRV records    | Present             |
 | DSRM password  | stored in password manager |
+
+## Active Directory — Initial State
+
+| Object                | Count / Detail |
+|-----------------------|----------------|
+| OUs (default)         |                |
+| Containers (default)  |                |
+| User accounts         |                |
+| Security groups       |                |
+| Domain Admins members |                |
+
+## DNS Verification
+
+| Check                             | Result     |
+|-----------------------------------|------------|
+| Forward zone `becode.corp.lab`    | Present    |
+| `_msdcs.becode.corp.lab` zone     | Present    |
+| Reverse lookup zone               | No         |
+| SRV records (`_ldap`, etc.)       | OK         |
+| `nslookup becode.corp.lab`        | OK         |
+| `nslookup dc01.becode.corp.lab`   | OK         |
+
+## Kerberos
+
+| Field              | Value |
+|--------------------|-------|
+| TGT issuer         |       |
+| TGT expiry time    |       |
+| Default TGT lifetime |     |
+
+## Event Log Check
+
+| Log              | Errors found | Notes |
+|------------------|--------------|-------|
+| Directory Service |            |       |
