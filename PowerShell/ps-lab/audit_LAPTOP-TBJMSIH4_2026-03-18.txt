@@ -1,0 +1,269 @@
+==================================================
+SYSTEM AUDIT REPORT
+==================================================
+Computer Name : LAPTOP-TBJMSIH4
+Current User  : Zoltan
+Generated On  : 2026-03-18 15:26:16
+
+--------------------------------------------------
+SECTION 1 - MACHINE INFO
+--------------------------------------------------
+
+
+
+ComputerName : LAPTOP-TBJMSIH4
+CurrentUser  : Zoltan
+OSName       : Microsoft Windows 11 Home
+OSVersion    : 10.0.26200
+LastBoot     : 3/12/2026 1:39:25 PM
+
+
+
+
+
+--------------------------------------------------
+SECTION 2 - USER ACCOUNTS
+--------------------------------------------------
+
+
+Name               Enabled PasswordLastSet     Warning                    
+----               ------- ---------------     -------                    
+Administrateur       False                                                
+DefaultAccount       False                                                
+Invité               False                                                
+pc                    True                     [WARN] No password ever set
+WDAGUtilityAccount   False 8/4/2025 9:33:56 PM                            
+Zoltan                True 2/9/2026 2:11:53 PM                            
+
+
+
+
+--------------------------------------------------
+SECTION 3 - RUNNING SERVICES
+--------------------------------------------------
+
+Total running services: 132
+
+
+Name                               DisplayName                                                   
+----                               -----------                                                   
+AcerCCAgentSvis                    Acer Care Center                                              
+AcerDeviceEnablingServiceV2        Acer Device Enabling Sevice V2                                
+AcerDIAgentSvis                    Acer Device Info                                              
+AcerEZSvc                          Acer Experience Zone Component Service                        
+AcerORDService                     Acer ORD Sevice                                               
+AcerQAAgentSvis                    Acer Quick Access                                             
+AcerServiceSvc                     Acer Service Component Service                                
+AMD Crash Defender Service         AMD Crash Defender Service                                    
+AMD External Events Utility        AMD External Events Utility                                   
+AppIDSvc                           Application Identity                                          
+Appinfo                            Application Information                                       
+ASMSvc                             Acer System Monitor Service                                   
+AudioEndpointBuilder               Windows Audio Endpoint Builder                                
+Audiosrv                           Windows Audio                                                 
+BDESVC                             BitLocker Drive Encryption Service                            
+BFE                                Base Filtering Engine                                         
+BrokerInfrastructure               Background Tasks Infrastructure Service                       
+BTAGService                        Bluetooth Audio Gateway Service                               
+BthAvctpSvc                        AVCTP service                                                 
+bthserv                            Bluetooth Support Service                                     
+camsvc                             Capability Access Manager Service                             
+cbdhsvc_1ca318c7                   Service utilisateur du Presse-papiers_1ca318c7                
+CDPSvc                             Connected Devices Platform Service                            
+CDPUserSvc_1ca318c7                Service pour utilisateur de plateforme d’appareils connecté...
+ClickToRunSvc                      Microsoft Office Click-to-Run Service                         
+CoreMessagingRegistrar             CoreMessaging                                                 
+CryptSvc                           Cryptographic Services                                        
+DbxSvc                             DbxSvc                                                        
+DcomLaunch                         DCOM Server Process Launcher                                  
+DeviceAssociationService           Device Association Service                                    
+DevicesFlowUserSvc_1ca318c7        Flux d’appareils_1ca318c7                                     
+DevQueryBroker                     DevQuery Background Discovery Broker                          
+Dhcp                               DHCP Client                                                   
+DiagTrack                          Connected User Experiences and Telemetry                      
+DispBrokerDesktopSvc               Display Policy Service                                        
+DisplayEnhancementService          Display Enhancement Service                                   
+Dnscache                           DNS Client                                                    
+DoSvc                              Delivery Optimization                                         
+DPS                                Diagnostic Policy Service                                     
+DsSvc                              Data Sharing Service                                          
+DusmSvc                            Data Usage                                                    
+EventLog                           Windows Event Log                                             
+EventSystem                        COM+ Event System                                             
+fdPHost                            Function Discovery Provider Host                              
+FDResPub                           Function Discovery Resource Publication                       
+FontCache                          Windows Font Cache Service                                    
+FrameServer                        Windows Camera Frame Server                                   
+GooglePlayGamesServices-26.3.127.1 Google Play Games Services (26.3.127.1)                       
+gpsvc                              Group Policy Client                                           
+hidserv                            Human Interface Device Service                                
+hns                                Host Network Service                                          
+HPPrintScanDoctorService           HP Print Scan Doctor Service                                  
+HvHost                             HV Host Service                                               
+InstallService                     Microsoft Store Install Service                               
+InventorySvc                       Inventory and Compatibility Appraisal service                 
+iphlpsvc                           IP Helper                                                     
+KeyIso                             CNG Key Isolation                                             
+LanmanServer                       Server                                                        
+LanmanWorkstation                  Workstation                                                   
+lfsvc                              Geolocation Service                                           
+LicenseManager                     Windows License Manager Service                               
+lmhosts                            TCP/IP NetBIOS Helper                                         
+logi_lamparray_service             Logitech LampArray Service                                    
+LSM                                Local Session Manager                                         
+McAfee WebAdvisor                  McAfee WebAdvisor                                             
+MDCoreSvc                          Microsoft Defender Core Service                               
+midisrv                            Windows MIDI Service                                          
+mpssvc                             Windows Defender Firewall                                     
+NcbService                         Network Connection Broker                                     
+Netman                             Network Connections                                           
+netprofm                           Network List Service                                          
+NetSetupSvc                        Network Setup Service                                         
+NgcCtnrSvc                         Microsoft Passport Container                                  
+NgcSvc                             Microsoft Passport                                            
+NPSMSvc_1ca318c7                   Lecture en cours du service du Responsable de la session_1c...
+nsi                                Network Store Interface Service                               
+nvagent                            Network Virtualization Service                                
+OneSyncSvc_1ca318c7                Hôte de synchronisation_1ca318c7                              
+PcaSvc                             Program Compatibility Assistant Service                       
+PhoneSvc                           Phone Service                                                 
+PlugPlay                           Plug and Play                                                 
+Power                              Power                                                         
+ProfSvc                            User Profile Service                                          
+QWAVE                              Quality Windows Audio Video Experience                        
+RasMan                             Remote Access Connection Manager                              
+RmSvc                              Radio Management Service                                      
+RpcEptMapper                       RPC Endpoint Mapper                                           
+RpcSs                              Remote Procedure Call (RPC)                                   
+RtkAudioUniversalService           Realtek Audio Universal Service                               
+SamSs                              Security Accounts Manager                                     
+Schedule                           Task Scheduler                                                
+SecurityHealthService              Windows Security Service                                      
+SENS                               System Event Notification Service                             
+SharedAccess                       Internet Connection Sharing (ICS)                             
+ShellHWDetection                   Shell Hardware Detection                                      
+Spooler                            Print Spooler                                                 
+SSDPSRV                            SSDP Discovery                                                
+SstpSvc                            Secure Socket Tunneling Protocol Service                      
+StateRepository                    State Repository Service                                      
+StiSvc                             Windows Image Acquisition (WIA)                               
+StorSvc                            Storage Service                                               
+SysMain                            SysMain                                                       
+SystemEventsBroker                 System Events Broker                                          
+TapiSrv                            Telephony                                                     
+TextInputManagementService         Text Input Management Service                                 
+Themes                             Themes                                                        
+TimeBrokerSvc                      Time Broker                                                   
+TokenBroker                        Web Account Manager                                           
+TrkWks                             Distributed Link Tracking Client                              
+TrustedInstaller                   Windows Modules Installer                                     
+UdkUserSvc_1ca318c7                Service utilisateur du kit de développement sans station d’...
+UserManager                        User Manager                                                  
+UsoSvc                             Update Orchestrator Service                                   
+VaultSvc                           Credential Manager                                            
+Wcmsvc                             Windows Connection Manager                                    
+WdiServiceHost                     Diagnostic Service Host                                       
+WdiSystemHost                      Diagnostic System Host                                        
+WdNisSvc                           Microsoft Defender Antivirus Network Inspection Service       
+WebClient                          WebClient                                                     
+webthreatdefsvc                    Web Threat Defense Service                                    
+webthreatdefusersvc_1ca318c7       Service d’utilisateur Web Threat Defense_1ca318c7             
+whesvc                             Windows Health and Optimized Experiences                      
+WinDefend                          Microsoft Defender Antivirus Service                          
+WinHttpAutoProxySvc                WinHTTP Web Proxy Auto-Discovery Service                      
+Winmgmt                            Windows Management Instrumentation                            
+WlanSvc                            WLAN AutoConfig                                               
+WpnService                         Windows Push Notifications System Service                     
+WpnUserService_1ca318c7            Service utilisateur de notifications Push Windows_1ca318c7    
+WSAIFabricSvc                      WSAIFabricSvc                                                 
+wscsvc                             Security Center                                               
+WSearch                            Windows Search                                                
+wuqisvc                            Microsoft Usage and Quality Insights                          
+
+
+
+
+--------------------------------------------------
+SECTION 4 - NETWORK CONNECTIONS
+--------------------------------------------------
+
+Total connections: 16
+
+
+LocalAddress                           LocalPort RemoteAddress             RemotePort ProcessName
+------------                           --------- -------------             ---------- -----------
+2a02:a03f:655c:4b01:2c28:640:890c:7683     65516 2602:f79a::1                     443 Notion     
+2a02:a03f:655c:4b01:2c28:640:890c:7683     49419 2603:1020:705:8::400             443 svchost    
+2a02:a03f:655c:4b01:2c28:640:890c:7683     44347 2a00:1450:4025:401::bc          5228 chrome     
+2a02:a03f:655c:4b01:2c28:640:890c:7683     38486 2602:f79a::2                     443 Notion     
+2a02:a03f:655c:4b01:2c28:640:890c:7683     37756 2606:4700:7::a29f:80eb          2053 Discord    
+2a02:a03f:655c:4b01:2c28:640:890c:7683     37623 2a06:98c1:3107::6812:2715        443 chrome     
+127.0.0.1                                  49689 127.0.0.1                      49688 AcerSysM...
+127.0.0.1                                  49688 127.0.0.1                      49689 AcerSysM...
+127.0.0.1                                  49670 127.0.0.1                      49669 ADESv2Svc  
+127.0.0.1                                  49669 127.0.0.1                      49670 ADESv2Svc  
+127.0.0.1                                  41517 127.0.0.1                       5141 AQAUserPS  
+192.168.129.49                             26811 162.159.133.234                  443 Discord    
+192.168.129.49                             26399 140.82.113.26                    443 chrome     
+192.168.129.49                             24408 52.206.229.140                   443 TRIGGERc...
+192.168.129.49                              7363 44.217.251.50                   8885 chrome     
+127.0.0.1                                   5141 127.0.0.1                      41517 AcerQAAgent
+
+
+
+
+--------------------------------------------------
+SECTION 5 - RECENT SECURITY EVENTS
+--------------------------------------------------
+
+Total events: 20
+
+
+TimeCreated          EventID Message                                                             
+-----------          ------- -------                                                             
+3/18/2026 3:25:59 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:25:59 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:25:57 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:25:57 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:22:32 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:22:32 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:21:49 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:21:49 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:21:33 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:21:33 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:21:15 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:21:15 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:19:48 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:19:48 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:18:03 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:18:03 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:16:49 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:16:49 PM    4624 An account was successfully logged on....                           
+3/18/2026 3:16:20 PM    4672 Special privileges assigned to new logon....                        
+3/18/2026 3:16:20 PM    4624 An account was successfully logged on....                           
+
+
+
+
+--------------------------------------------------
+SECTION 6 - PERSISTENCE LOCATIONS
+--------------------------------------------------
+
+
+RegistryPath                                        Name                                         
+------------                                        ----                                         
+HKCU:\Software\Microsoft\Windows\CurrentVersion\Run MicrosoftEdgeAutoLaunch_453AF6D6662E371B08...
+HKCU:\Software\Microsoft\Windows\CurrentVersion\Run OneDrive                                     
+HKCU:\Software\Microsoft\Windows\CurrentVersion\Run Discord                                      
+HKCU:\Software\Microsoft\Windows\CurrentVersion\Run ScreenRec                                    
+HKCU:\Software\Microsoft\Windows\CurrentVersion\Run electron.app.Notion                          
+HKLM:\Software\Microsoft\Windows\CurrentVersion\Run SecurityHealth                               
+HKLM:\Software\Microsoft\Windows\CurrentVersion\Run RtkAudUService                               
+HKLM:\Software\Microsoft\Windows\CurrentVersion\Run SteelSeriesGG                                
+
+
+
+
+==================================================
+END OF REPORT
+==================================================
