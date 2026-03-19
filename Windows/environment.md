@@ -13,7 +13,7 @@
 
 | Field          | Value               |
 |----------------|---------------------|
-| VM name / Hostname | dc01            |
+| VM name / Hostname | rg-lab-ad       |
 | Private IP     | 10.0.0.4            |
 | OS             | Windows Server 2025 |
 | Role           | Domain Controller (pending installation) |
