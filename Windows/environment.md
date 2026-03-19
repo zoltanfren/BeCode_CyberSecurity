@@ -17,5 +17,5 @@
 | Private IP     | 10.0.0.4            |
 | OS             | Windows Server 2025 |
 | Role           | Domain Controller (pending installation) |
-| Domain         | (to be configured)  |
+| Domain         | becode.corp.lab     |
 | DSRM password  | stored in password manager |
