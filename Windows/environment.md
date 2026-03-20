@@ -96,9 +96,56 @@
 | GRP-Corp-All | GRP-Management, GRP-Study, GRP-Production, GRP-Support |
 | GRP-Helpdesk | alice.sysadmin, leo.simon |
 
-### Accepted risks
-| Risk | Severity | Notes |
-|---|---|---|
-| claire.admin in Domain Admins | High | General Manager has domain admin rights. A targeted attack on her account = full domain compromise. Organizational decision. |
-| svc_backup, svc_ftp, svc_monitor — PasswordNeverExpires | Medium | Service accounts. Password rotation requires coordination with application owners. |
+## Security Baseline — BeCode Corp.
+
+### Password Policy (Default Domain Policy)
+| Setting                          | Configured value |
+|----------------------------------|------------------|
+| Minimum password length          |                  |
+| Complexity required              |                  |
+| Maximum password age             |                  |
+| Minimum password age             |                  |
+| Password history                 |                  |
+
+### Account Lockout Policy
+| Setting                          | Configured value |
+|----------------------------------|------------------|
+| Lockout threshold                |                  |
+| Lockout duration                 |                  |
+| Reset counter after              |                  |
+
+### Monitoring (GPO: Security-Monitoring)
+| Setting                          | Status |
+|----------------------------------|--------|
+| PowerShell ScriptBlock Logging   |        |
+| PowerShell Module Logging        |        |
+| Process Creation Auditing (4688) | Not yet configured — Day 3 |
+| Sysmon                           | Not yet installed — Day 3 |
+
+## Known and Accepted Risks
+
+| Risk | Who it affects | Severity | Notes |
+|---|---|---|---|
+| claire.admin in Domain Admins | Entire domain | High | General Manager holds Domain Admin rights. Compromise = full domain takeover. |
+| svc_backup — PasswordNeverExpires | Backup data | Medium | Password does not rotate automatically. Credential theft gives persistent backup access. |
+| svc_ftp — PasswordNeverExpires | FTP storage | Medium | Same as above. Especially relevant since FTP was publicly accessible in the network project. |
+| svc_monitor — PasswordNeverExpires | Monitoring logs | Low | Read-only monitoring account. Lower impact but still a credential that never expires. |
+| (add anything else you noticed) | | | |
+
+## DHCP
+
+| Field               | Value |
+|---------------------|-------|
+| DHCP Server         | dc01.becode.corp.lab |
+| Scope name          | BeCode-Corp-Lab |
+| IP range            |       |
+| Subnet mask         |       |
+| Default gateway     |       |
+| DNS server          | (DC private IP) |
+| DNS domain          | becode.corp.lab |
+| Dynamic DNS updates | Enabled |
+
+## Note — multi-scope production deployment
+In a real BeCode Corp. deployment, one scope per department VLAN would be needed.
+See network project documentation for VLAN and subnet definitions.
 
